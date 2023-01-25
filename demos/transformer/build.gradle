@@ -80,6 +80,7 @@ dependencies {
     implementation project(modulePrefix + 'library-effect')
     implementation project(modulePrefix + 'library-core')
     implementation project(modulePrefix + 'library-dash')
+    implementation project(modulePrefix + 'library-hls')
     implementation project(modulePrefix + 'library-transformer')
     implementation project(modulePrefix + 'library-ui')
 
@@ -92,3 +93,12 @@ dependencies {
     withMediaPipeImplementation 'com.google.code.findbugs:jsr305:latest.release'
     withMediaPipeImplementation 'com.google.protobuf:protobuf-javalite:3.19.1'
 }
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
+
