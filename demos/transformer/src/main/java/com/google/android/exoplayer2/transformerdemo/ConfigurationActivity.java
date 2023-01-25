@@ -88,6 +88,7 @@ public final class ConfigurationActivity extends AppCompatActivity {
   public static final int COLOR_FILTER_SEPIA = 2;
   public static final int FILE_PERMISSION_REQUEST_CODE = 1;
   private static final String[] PRESET_FILE_URIS = {
+    "https://dh4wkqcyy8768.cloudfront.net/live_500.m3u8",
     "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-10s.mp4",
     "https://storage.googleapis.com/exoplayer-test-media-0/android-block-1080-hevc.mp4",
     "https://html5demos.com/assets/dizzy.mp4",
@@ -103,6 +104,7 @@ public final class ConfigurationActivity extends AppCompatActivity {
     "https://storage.googleapis.com/exoplayer-test-media-1/mp4/samsung-s21-hdr-hdr10.mp4",
   };
   private static final String[] PRESET_FILE_URI_DESCRIPTIONS = { // same order as PRESET_FILE_URIS
+    "Test Record Live Stream - OneTV",
     "720p H264 video and AAC audio",
     "1080p H265 video and AAC audio",
     "360p H264 video and AAC audio",
